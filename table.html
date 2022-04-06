@@ -9,55 +9,59 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-
-    <style>
-
-      div.grid{
-        background: #ffd1c2;
-        border: 2px solid #f16234;
-        height: 50px;
-      }
-
-    </style>
   </head>
   <body>
 
-    <div class="container">
-      <div class="row">
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-      </div>
-    </div>
+    <table class="table table-hover">
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-        <div class="col grid"></div>
-      </div>
-    </div>
+      <thead class="table-dark">
+        <tr>
+          <th>#id</th>
+          <th>First</th>
+          <th>Last</th>
+          <th>Handle</th>
+        </tr>
+      </thead>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-12 grid"></div>
-        <div class="col-sm-1 grid"></div>
-        <div class="col-md-5 grid"></div>
-        <div class="col-lg-4 grid"></div>
-        <div class="col-xl-2 grid"></div>
-      </div>
-    </div>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Guilherme</td>
+          <td>Pinheiro</td>
+          <td>@gp</td>
+        </tr>
 
+        <tr>
+          <th>2</th>
+          <td>Maria</td>
+          <td>Pinheiro</td>
+          <td>@mp</td>
+        </tr>
+
+        <tr>
+          <th>3</th>
+          <td>João</td>
+          <td>Pinheiro</td>
+          <td>@jp</td>
+        </tr>
+
+        <tr>
+          <th>4</th>
+          <td>Julio</td>
+          <td>Pinheiro</td>
+          <td>@jp</td>
+        </tr>
+      </tbody>
+
+      <tfoot class="table-dark">
+        <tr>
+          <th>#id</th>
+          <th>First</th>
+          <th>Last</th>
+          <th>Handle</th>
+        </tr>
+      </tfoot>
+    </table>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
